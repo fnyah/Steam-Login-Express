@@ -1,0 +1,10 @@
+<link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+<link rel="stylesheet" href= "../public/stylesheets/style.css">
+
+<h1 class="welcome">Welcome, Login Please</h1>
+<p><a href="auth/steam">Sign in with steam</a></p>
+{{#if user}}
+<h2>hello {{user.displayName}} - <a href="logout">Logout</a></h2>
+<p><a href="account">See Account Information</a></p>
+{{/if}}
+

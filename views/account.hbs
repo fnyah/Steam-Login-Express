@@ -1,0 +1,30 @@
+{{!-- <link rel="stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+<link rel="stylesheet" href= "../public/stylesheets/style.css">
+
+<p><img src={{user.photos.[2].value}}) alt='Your Avatar Image' /></p>
+<p>ID: {{user.id}} </p>
+<p>Name: {{user.displayName}}</p>
+<p>Location: {{user.stateCode}}</p>
+<p><a href={{user.steamProfile}}>Visit your profile</a></p>
+ --}}
+
+
+
+<div class="container">
+	<div class="row">
+        <div class="profile-header-container">   
+    		<div class="profile-header-img">
+                <a href={{user.steamProfile}}>
+                    <input type="image" class="img-circle" src={{user.photos.[2].value}}  />
+                </a>
+                <!-- badge -->
+                <div class="rank-label-container">
+                    <p class="user-info">{{user.displayName}}</p>
+                    <p class="user-info">Location: {{user.stateCode}}</p>
+                    <p class="user-info">{{user.displayName}}</p>
+                    <p class="user-info">{{user.displayName}}</p>
+                </div>
+            </div>
+        </div> 
+	</div>
+</div>

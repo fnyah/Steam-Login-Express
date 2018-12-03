@@ -1,2 +1,2 @@
 # steam_login
-Testing for artifact related game.
+Login system for steam using express handlebars. 

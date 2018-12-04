@@ -23,7 +23,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new SteamStrategy({
   returnURL: 'http://localhost:3000/auth/steam/return',
   realm: 'http://localhost:3000/',
-  apiKey: ''
+  apiKey: '' // put steam api key here
 },
 function(identifier, profile, done) {
   // asynchronous verification, for effect...
@@ -36,7 +36,7 @@ function(identifier, profile, done) {
     profile.identifier = identifier;
     console.log(profile)
     return done(null, profile);
-    
+
   });
 }
 ));

@@ -8,8 +8,9 @@ I would suggest using a different view engine - [ejs]https://ejs.co/
 
 <p align="center">
     <img width="300" alt="Screen Shot 2022-02-22 at 1 09 05 PM" src="https://user-images.githubusercontent.com/7035086/155194759-71fc04ef-0027-4e2f-b797-bb36f4b7ca3b.png">
-</p><img width="300" alt="Screen Shot 2022-02-22 at 1 09 50 PM" src="https://user-images.githubusercontent.com/7035086/155194902-5a2fa6ba-7847-4f66-bf1f-95a06e0b37d9.png">
+<img width="300" alt="Screen Shot 2022-02-22 at 1 09 50 PM" src="https://user-images.githubusercontent.com/7035086/155194902-5a2fa6ba-7847-4f66-bf1f-95a06e0b37d9.png">
 <img width="300" alt="Screen Shot 2022-02-22 at 1 11 13 PM" src="https://user-images.githubusercontent.com/7035086/155194919-f4be5b4a-d9cb-4320-8f70-7bbbe53fdd40.png">
+</p>
 
 ## Installation 
 

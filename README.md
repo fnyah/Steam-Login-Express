@@ -1,50 +1,52 @@
 # Steam login with express and handlebars
 
 This is a boilerplate for using steam login via passport-steam on an express server. 
-This project is many years old now and was built with handlebars. I would suggest using a different view engine. 
+This project is many years old now and was built with handlebars as a view engine. 
+I would suggest using a different view engine - [ejs]https://ejs.co/
 
 # Demo 
 
 <p align="center">
     <img width="300" alt="Screen Shot 2022-02-22 at 1 09 05 PM" src="https://user-images.githubusercontent.com/7035086/155194759-71fc04ef-0027-4e2f-b797-bb36f4b7ca3b.png">
-</p>
-
-# Installation and Usage
-
-To use a discord bot, you must have a discord developer account and an application created in the discord developer center. You will need to replace the bot login token with your own. If you have no experience setting up a discord bot, you can start [here](https://discord.com/developers/docs/intro) with the discord developer docs. Or check out "The Coding Train" for his series on discord bots that is very useful for getting started [here](https://www.youtube.com/watch?v=7A-bnPlxj4k). 
-
-## Bot commands
-
-
-Use the prefix "$" followed by any token name or symbol listed on CoinGecko to recieve an instant price readout. 
+</p><img width="300" alt="Screen Shot 2022-02-22 at 1 09 50 PM" src="https://user-images.githubusercontent.com/7035086/155194902-5a2fa6ba-7847-4f66-bf1f-95a06e0b37d9.png">
+<img width="300" alt="Screen Shot 2022-02-22 at 1 11 13 PM" src="https://user-images.githubusercontent.com/7035086/155194919-f4be5b4a-d9cb-4320-8f70-7bbbe53fdd40.png">
 
 ## Installation 
 
 Clone this project to a desired local folder. 
 
 ```
-$ git clone https://github.com/fnyah/Crypticker-discord/
-$ cd Crypticker-discord
+$ git clone https://github.com/fnyah/Steam-Login-Express/
+$ cd Steam-Login-Express/
+```
+
+Add your steam API key - found [here](https://steamcommunity.com/dev/apikey)
+
+```
+line 82 in app.js apiKey: '' // Your steam api key goes here!
 ```
 
 Install project dependencies. 
 
 ```
 $ npm install
-```
-
-Run the bot!
 
 ```
-node bot.js
+
+Run the application
+
+```
+node app.js
 ```
 
 # Required Dependencies
 
-* [discord.js](https://discord.js.org/#/)
-* [coingecko-api](https://www.npmjs.com/package/coingecko-api)
-* [Chart.js](https://www.chartjs.org/)
-* [moment.js](https://github.com/moment/moment/)
+* [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+* [express](https://expressjs.com/)
+* [handlebars](https://handlebarsjs.com/)
+* [morgan](https://www.npmjs.com/package/morgan)
+* [passport](https://www.passportjs.org/)
+* [passport-steam](https://www.npmjs.com/package/passport-steam)
 
 # License
 

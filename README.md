@@ -6,7 +6,7 @@ This project is many years old now and was built with handlebars. I would sugges
 # Demo 
 
 <p align="center">
-    <img width="815" alt="Screen Shot 2022-02-22 at 1 09 05 PM" src="https://user-images.githubusercontent.com/7035086/155194759-71fc04ef-0027-4e2f-b797-bb36f4b7ca3b.png">
+    <img width="300" alt="Screen Shot 2022-02-22 at 1 09 05 PM" src="https://user-images.githubusercontent.com/7035086/155194759-71fc04ef-0027-4e2f-b797-bb36f4b7ca3b.png">
 </p>
 
 # Installation and Usage

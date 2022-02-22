@@ -2,7 +2,8 @@
 
 This is a boilerplate for using steam login via passport-steam on an express server. 
 This project is many years old now and was built with handlebars as a view engine. 
-I would suggest using a different view engine - [ejs]https://ejs.co/
+I would suggest using a different view engine 
+maybe * [ejs]https://ejs.co/
 
 # Demo 
 

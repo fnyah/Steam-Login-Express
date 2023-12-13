@@ -95,6 +95,6 @@ passport.use(new SteamStrategy({
   }
 ));
 
-app.listen(3000)
+
 console.log("listening");
 module.exports = app;

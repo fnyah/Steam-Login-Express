@@ -1,14 +1,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" href="../public/stylesheets/style.css">
+{{!-- <link rel="stylesheet" href=".~/style.css"> --}}
 
+{{!-- hide if user is logged in --}}
+
+{{#unless user}}
 <div class="container">
     <h1 class="title">Please login...</h1>
     <p class="interaction-btn"><a href="auth/steam">Sign in with steam</a></p>
 </div>
+{{/unless}}
+{{!-- 
+only show if user is logged in --}}
 
 {{#if user}}
 <div class="container">
-    <h2>Logged in to account: {{user.displayName}} - <a href="logout">Logout</a></h2>
+    <h2>Logged in to account: {{user.displayName}} - <a href="/logout">Logout</a></h2>
     <p><a href="account">See Account Information</a></p>
 </div>
 {{/if}}
